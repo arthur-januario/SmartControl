@@ -1,0 +1,170 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: linear-gradient(135deg, #0b3d4a, #1b8c91, #8bd3d0);
+}
+
+/* Card do formulário */
+.card {
+width: 400px;
+background-color: #ffffff;
+
+padding: 35px 40px;
+margin: 20px;
+
+border-radius: 15px;
+
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+text-align: center;
+}
+
+/* Logo */
+.logo {
+margin-bottom: 25px;
+}
+
+.logo-circulo {
+width: 85px;
+height: 85px;
+
+margin: 0 auto 8px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-radius: 50%;
+
+background: linear-gradient(135deg, #0b5260, #168b98);
+
+font-size: 42px;
+}
+
+.logo h1 {
+font-size: 25px;
+color: #123c48;
+}
+
+/* Títulos */
+h2 {
+color: #222;
+font-size: 24px;
+margin-bottom: 8px;
+}
+
+.subtitulo {
+color: #888;
+font-size: 15px;
+margin-bottom: 28px;
+}
+
+/* Labels */
+form {
+text-align: left;
+}
+
+form > label {
+display: block;
+
+font-size: 17px;
+color: #333;
+
+margin-bottom: 7px;
+}
+
+/* Campos */
+input[type="text"],
+input[type="password"] {
+width: 100%;
+
+padding: 13px 15px;
+margin-bottom: 20px;
+
+border: 1px solid #cfcfcf;
+border-radius: 8px;
+
+font-size: 14px;
+
+outline: none;
+
+transition: 0.3s;
+}
+
+/* Quando clicar no campo */
+input[type="text"]:focus,
+input[type="password"]:focus {
+border-color: #1769e0;
+box-shadow: 0 0 5px rgba(23, 105, 224, 0.25);
+}
+
+/* Opções */
+.opcoes {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin-bottom: 22px;
+
+font-size: 14px;
+}
+
+.lembrar {
+display: flex;
+align-items: center;
+gap: 5px;
+
+color: #444;
+}
+
+.opcoes a {
+color: #1769e0;
+text-decoration: none;
+}
+
+.opcoes a:hover {
+text-decoration: underline;
+}
+
+/* Botão */
+button {
+width: 100%;
+
+padding: 14px;
+
+border: none;
+border-radius: 9px;
+
+background-color: #1769e0;
+color: white;
+
+font-size: 18px;
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.3s;
+}
+
+button:hover {
+background-color: #0f52b5;
+}
+
+/* Rodapé */
+footer {
+margin-top: 28px;
+
+color: #aaa;
+font-size: 12px;
+} 
