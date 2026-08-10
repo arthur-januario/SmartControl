@@ -4,6 +4,14 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.login-card{
+    width: 300px;
+    background: #b6d4e0;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.20);
+}
+
 body {
 font-family: Arial, Helvetica, sans-serif;
 min-height: 100vh;
@@ -12,10 +20,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-background: linear-gradient(135deg, #0b3d4a, #1b8c91, #8bd3d0);
+background:#56a1b9;
 }
 
-/* Card do formulário */
 .card {
 width: 400px;
 background-color: #ffffff;
@@ -30,9 +37,13 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 text-align: center;
 }
 
-/* Logo */
 .logo {
 margin-bottom: 25px;
+}
+
+.opcoes input{
+    width: auto;
+    margin: 0;
 }
 
 .logo-circulo {
@@ -57,7 +68,6 @@ font-size: 25px;
 color: #123c48;
 }
 
-/* Títulos */
 h2 {
 color: #222;
 font-size: 24px;
@@ -70,13 +80,12 @@ font-size: 15px;
 margin-bottom: 28px;
 }
 
-/* Labels */
 form {
 text-align: left;
 }
 
 form > label {
-display: block;
+display: flex;
 
 font-size: 17px;
 color: #333;
@@ -84,7 +93,6 @@ color: #333;
 margin-bottom: 7px;
 }
 
-/* Campos */
 input[type="text"],
 input[type="password"] {
 width: 100%;
@@ -102,14 +110,12 @@ outline: none;
 transition: 0.3s;
 }
 
-/* Quando clicar no campo */
 input[type="text"]:focus,
 input[type="password"]:focus {
 border-color: #1769e0;
 box-shadow: 0 0 5px rgba(23, 105, 224, 0.25);
 }
 
-/* Opções */
 .opcoes {
 display: flex;
 justify-content: space-between;
@@ -137,7 +143,6 @@ text-decoration: none;
 text-decoration: underline;
 }
 
-/* Botão */
 button {
 width: 100%;
 
@@ -161,7 +166,6 @@ button:hover {
 background-color: #0f52b5;
 }
 
-/* Rodapé */
 footer {
 margin-top: 28px;
 
