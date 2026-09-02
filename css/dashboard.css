@@ -286,3 +286,53 @@
     padding: 8px;
     }
 } 
+
+header>nav {
+    display: center;
+}
+
+header>nav>input{
+    border-radius: 12px;
+    border-width: 15px;
+}
+
+#btnTema,
+#btnMenu {
+padding: 10px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+*/
+.oculto {
+display: none;
+}
+
+body {
+transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.dark-theme {
+background-color: #1e1e1e;
+color: white;
+}
+
+.dark-theme .card {
+background-color: #2b2b2b;
+color: white;
+}
+
+.dark-theme table {
+background-color: #2b2b2b;
+color: white;
+}
+
+#menuLateral {
+display: none;
+}
+
+#menuLateral.menu-aberto {
+display: block;
+}
