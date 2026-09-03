@@ -287,22 +287,31 @@
     }
 } 
 
-header>nav {
-    display: center;
-}
-
-header>nav>input{
-    border-radius: 12px;
-    border-width: 15px;
-}
-
 #btnTema,
 #btnMenu {
 padding: 10px;
 margin: 5px;
 border: none;
-border-radius: 5px;
+border-radius: 10px;
 cursor: pointer;
+}
+
+#campoBusca {
+padding: 8px;
+margin: 15px;
+margin-left: -15px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+header div {
+background: #56a1b9;
+padding: 20px 40px;
+border-radius: 50px;
+margin-left: auto;
+margin-right: auto;
+color: white;
 }
 
 */
@@ -335,4 +344,4 @@ display: none;
 
 #menuLateral.menu-aberto {
 display: block;
-}
+} 
